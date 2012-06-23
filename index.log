@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.23)  23 JUN 2012 15:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.23)  23 JUN 2012 15:51
 entering extended mode
 **index.tex
 (D:\repos\Lectii-Viata-Crestina\index.tex
@@ -704,7 +704,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 \@input{comenzi.aux}
 (D:\repos\Lectii-Viata-Crestina\comenzi.tex)
-No file index.aux.
+(D:\repos\Lectii-Viata-Crestina\index.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
@@ -719,6 +719,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -764,6 +765,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 30.
 LaTeX Info: Redefining \pageref on input line 30.
 LaTeX Info: Redefining \nameref on input line 30.
+
+(D:\repos\Lectii-Viata-Crestina\index.out)
+(D:\repos\Lectii-Viata-Crestina\index.out)
 \@outlinefile=\write3
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -846,27 +850,21 @@ File: uni-32.def 2004/10/17 UCS: Unicode data U+2000..U+20FF
 [2]) (D:\repos\Lectii-Viata-Crestina\lectia-unu.tex [3] [4] [5])
 (D:\repos\Lectii-Viata-Crestina\lectia-doi.tex [6] [7])
 (D:\repos\Lectii-Viata-Crestina\lectia-trei.tex [8] [9])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
- [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
+(D:\repos\Lectii-Viata-Crestina\lectia-patru.tex [10] [11])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
 
 (D:\repos\Lectii-Viata-Crestina\index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 43.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 43.
-
-
-Package rerunfilecheck Warning: File `index.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `index.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package rerunfilecheck Info: File `index.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9901 strings out of 494045
- 136216 string characters out of 3145969
- 217620 words of memory out of 3000000
+ 9921 strings out of 494045
+ 136647 string characters out of 3145969
+ 217587 words of memory out of 3000000
  12960 multiletter control sequences out of 15000+200000
  27660 words of font info for 77 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
@@ -885,9 +883,9 @@ eX 2.9/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Program Files (x86)/MiKTeX
 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/public/cm-super/sfsl1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/cm-super/sfti1440.pfb>
-Output written on index.pdf (10 pages, 192086 bytes).
+Output written on index.pdf (12 pages, 198731 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
+ 197 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
