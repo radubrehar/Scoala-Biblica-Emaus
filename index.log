@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.23)  23 JUN 2012 15:51
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.5.23)  23 JUN 2012 16:11
 entering extended mode
 **index.tex
 (D:\repos\Lectii-Viata-Crestina\index.tex
@@ -851,22 +851,34 @@ File: uni-32.def 2004/10/17 UCS: Unicode data U+2000..U+20FF
 (D:\repos\Lectii-Viata-Crestina\lectia-doi.tex [6] [7])
 (D:\repos\Lectii-Viata-Crestina\lectia-trei.tex [8] [9])
 (D:\repos\Lectii-Viata-Crestina\lectia-patru.tex [10] [11])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+(D:\repos\Lectii-Viata-Crestina\lectia-cinci.tex [12] [13])
+(D:\repos\Lectii-Viata-Crestina\lectia-sase.tex [14] [15])
+Underfull \hbox (badness 10000) in paragraph at lines 38--48
+
+ []
+
+(D:\repos\Lectii-Viata-Crestina\lectia-sapte.tex [16] [17])
+(D:\repos\Lectii-Viata-Crestina\lectia-opt.tex [18])
+(D:\repos\Lectii-Viata-Crestina\lectia-noua.tex [19])
+(D:\repos\Lectii-Viata-Crestina\lectia-zece.tex [20])
+(D:\repos\Lectii-Viata-Crestina\lectia-unsprezece.tex [21])
+(D:\repos\Lectii-Viata-Crestina\lectia-doisprezece.tex [22])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
+ [23]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
 
 (D:\repos\Lectii-Viata-Crestina\index.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 62.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 62.
 Package rerunfilecheck Info: File `index.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9921 strings out of 494045
- 136647 string characters out of 3145969
- 217587 words of memory out of 3000000
- 12960 multiletter control sequences out of 15000+200000
- 27660 words of font info for 77 fonts, out of 3000000 for 9000
+ 10005 strings out of 494045
+ 138005 string characters out of 3145969
+ 218587 words of memory out of 3000000
+ 12961 multiletter control sequences out of 15000+200000
+ 28344 words of font info for 78 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  29i,7n,43p,1087b,595s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
@@ -882,10 +894,11 @@ iKTeX 2.9/fonts/type1/public/cm-super/sfcc2074.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Program Files (x86)/MiKTeX 
 2.9/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/public/cm-super/sfsl1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/cm-super/sfti1440.pfb>
-Output written on index.pdf (12 pages, 198731 bytes).
+nts/type1/public/cm-super/sfti1200.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/cm-super/sfti1440.pfb>
+Output written on index.pdf (23 pages, 263758 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
+ 305 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
