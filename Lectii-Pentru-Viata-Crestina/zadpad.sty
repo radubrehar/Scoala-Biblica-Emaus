@@ -1,0 +1,102 @@
+%% This is file zadpad.sty, containing TeX macros to typeset mock-MF fonts.
+%% Created by MathKit0.7 at 17:36 on Thursday, November 29, 2001.
+
+\ProvidesPackage{zadpad}
+
+\renewcommand{\rmdefault}{pad}
+\renewcommand{\encodingdefault}{OT1}
+\renewcommand{\bfdefault}{sb}
+
+\DeclareFontFamily{OMX}{adpad}{}
+  \DeclareFontShape{OMX}{adpad}{m}{n}{<-> adex10}{}
+\DeclareFontFamily{OMS}{adpad}{\skewchar\font=48}
+  \DeclareFontShape{OMS}{adpad}{m}{n}{ 
+    <12->  adsy10 
+    <10><11>  adsy10 
+    <9>   adsy9 
+    <8>   adsy8
+    <7>   adsy7 
+    <6>   adsy6 
+    <5>   adsy5 
+  }{}
+
+\SetSymbolFont{operators}{normal}{OT1}{adpad}{m}{n}
+\SetSymbolFont{letters}{normal}{OML}{adpad}{m}{it}
+\SetSymbolFont{symbols}{normal}{OMS}{adpad}{m}{n}
+\SetSymbolFont{largesymbols}{normal}{OMX}{adpad}{m}{n}
+
+\SetMathAlphabet{\mathit}{normal}{OT1}{\rmdefault}{m}{it}
+\SetMathAlphabet{\mathbf}{normal}{OT1}{adpad}{\bfdefault}{n}
+
+
+\DeclareFontFamily{OT1}{cal}{}
+\DeclareFontShape{OT1}{cal}{m}{it}{<-> adsy10}{}
+\newcommand{\caldefault}{cal}
+\SetMathAlphabet{\mathcal}{normal}{OT1}{\caldefault}{m}{it}
+
+
+
+\DeclareMathVersion{boldmath}
+  \DeclareFontShape{OMX}{adpad}{sb}{n}{<-> adbex10}{}
+  \DeclareFontShape{OMS}{adpad}{sb}{n}{ 
+    <12->  adbsy12
+    <10,11>  adbsy10 
+    <9>   adbsy9 
+    <8>   adbsy8
+    <7>   adbsy7 
+    <6>   adbsy6 
+    <5>   adbsy5 
+  }{}
+
+\SetSymbolFont{operators}{boldmath}{OT1}{adpad}{sb}{n}
+\SetSymbolFont{letters}{boldmath}{OML}{adpad}{sb}{it}
+\SetSymbolFont{symbols}{boldmath}{OMS}{adpad}{sb}{n}
+\SetSymbolFont{largesymbols}{boldmath}{OMX}{adpad}{sb}{n}
+\SetMathAlphabet{\mathcal}{boldmath}{OMS}{adpad}{sb}{n}
+
+\newenvironment{boldface}{\bgroup\mathversion{boldmath}%
+  \def\it{\fontseries{sb}\fontshape{it}\selectfont}%
+  \fontseries{sb}\selectfont }{\egroup}
+\DeclareMathAlphabet{\mathbf}{OT1}{pad}{sb}{n}
+
+%% Extracting font info from file ot1cmss.fd...
+\DeclareFontFamily{OT1}{cmss}{\hyphenchar\font45 }
+\DeclareFontShape{OT1}{cmss}{m}{n}
+     {%
+      <5><6><7><8> [0.89] cmss8%
+      <9> [0.89] cmss9%
+      <10><10.95> [0.89] cmss10%
+      <12><14.4> [0.89] cmss12%
+      <17.28><20.74><24.88> [0.89] cmss17%
+      }{}
+\DeclareFontShape{OT1}{cmss}{m}{it}
+      {<-> [0.89] sub*cmss/m/sl}{}
+\DeclareFontShape{OT1}{cmss}{m}{sl}
+    {%
+      <5><6><7><8> [0.89] cmssi8<9> [0.89] cmssi9%
+      <10><10.95> [0.89] cmssi10%
+      <12><14.4> [0.89] cmssi12%
+      <17.28><20.74><24.88> [0.89] cmssi17%
+      }{}
+\DeclareFontShape{OT1}{cmss}{m}{sc}
+       {<-> [0.89] sub*cmr/m/sc}{}
+\DeclareFontShape{OT1}{cmss}{m}{ui}
+       {<-> [0.89] sub*cmr/m/ui}{}
+\DeclareFontShape{OT1}{cmss}{sbc}{n}
+     {%
+      <5><6><7><8><9> [0.89] cmssdc10%
+       <10><10.95><12><14.4><17.28><20.74><24.88> [0.89] cmssdc10%
+       }{}
+
+\DeclareFontShape{OT1}{cmss}{bx}{n}
+     {%
+      <5><6><7><8><9> [0.89] cmssbx10%
+      <10><10.95><12><14.4><17.28><20.74><24.88> [0.89] cmssbx10%
+      }{}
+\DeclareFontShape{OT1}{cmss}{bx}{ui}
+       {<-> [0.89] sub*cmr/bx/ui}{}
+%% End of extraction from file ot1cmss.fd.
+
+\newcommand{\sansdefault}{cmss}
+\DeclareMathAlphabet{\mathsf}{OT1}{\sansdefault}{m}{n}
+\endinput

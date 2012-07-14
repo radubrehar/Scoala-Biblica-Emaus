@@ -1,0 +1,66 @@
+%pdflatex -synctex=1 -interaction=nonstopmode %.tex
+\documentclass[12pt,a4paper]{book}
+
+\usepackage{ucs}
+\usepackage{textcase}
+\usepackage{hyperref}
+
+\ifxetex
+    % XeLaTeX
+    \usepackage{polyglossia}
+    \usepackage{fontspec}
+    
+    \usepackage{fontspec}
+	\setmainfont{Calibri}
+\else
+    % default: pdfLaTeX
+    
+    \usepackage[romanian]{babel}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+\fi
+
+\usepackage{indentfirst}%in order to make first paragraph indented as well 
+\usepackage{lmodern}	% for better fonts
+\usepackage{garamond} 	% for garamond font
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\usepackage[top=2cm, bottom=1.5cm, left=2cm, right=1.5cm]{geometry}
+
+\include{comenzi}
+
+\begin{document}
+
+\input{titlu.tex}
+
+\garamond
+\input{instructiuni.tex}
+
+\input{test-unu.tex}
+
+\input{lectia-unu.tex}
+
+\input{lectia-doi.tex}
+
+\input{lectia-trei.tex}
+
+\input{lectia-patru.tex}
+
+\input{lectia-cinci.tex}
+
+\input{lectia-sase.tex}
+
+\input{lectia-sapte.tex}
+
+\input{lectia-opt.tex}
+
+\input{lectia-noua.tex}
+
+\input{lectia-zece.tex}
+
+\input{lectia-unsprezece.tex}
+
+\input{lectia-doisprezece.tex}
+
+\end{document}

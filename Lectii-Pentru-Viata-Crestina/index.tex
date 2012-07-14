@@ -1,40 +1,63 @@
+%the compiler command
+%pdflatex -synctex=1 -interaction=nonstopmode %.tex 
+
 \documentclass[12pt,a4paper]{book}
+
 \usepackage{ucs}
-
-\usepackage{indentfirst} %in order to make first paragraph indented as well 
-\usepackage{textcomp} 
-\usepackage{type1ec}
-\usepackage[T1]{fontenc}
-
-
-\usepackage[utf8]{inputenc}
-%\usepackage[cp1250]{inputenc}
-\usepackage[romanian]{babel}
-\usepackage{amsmath}
 \usepackage{textcase}
-\usepackage{amsfonts}
-\usepackage{amssymb}
 \usepackage{hyperref}
-\usepackage{etoolbox}
-\usepackage{boolexpr}
-\usepackage{ifthen}
+    
+\usepackage[romanian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage{fancyhdr}
-\usepackage[pdftex]{graphicx}
 
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\usepackage{enumitem}	% for custom vertical space between list items
+\usepackage{indentfirst}%in order to make first paragraph indented as well 
+\usepackage{lmodern}	% for better fonts
+\usepackage{garamond} 	% for garamond font
 
 \usepackage[top=2cm, bottom=1.5cm, left=2cm, right=1.5cm]{geometry}
+
+\setlist[2]{noitemsep} % sets the itemsep and parsep for all level two lists to 0
 
 \include{comenzi}
 
 \begin{document}
 
-
 \input{titlu.tex}
+
+%use garamond font
+\garamond
+
+%empty page
+\mbox{}
+\thispagestyle{empty}
+
+\newpage
+
+\clearpage
+\pagenumbering{roman}
+\setcounter{page}{3}
+
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}										%no header lines
+
+\fancyhead[EL]{Instrucțiuni pentru cursanți \thepage}
 
 \input{instructiuni.tex}
 
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\fancyhead[EL]{\thepage \hspace*{1.2cm} Lecții pentru viața creștină}	%the top left header on even pages
+\fancyhead[OR]{\rightmark \hspace*{1.2cm} \thepage}						%the top right header on odd pages
+\cfoot{}																%in order to remove bottom page number
+
 \input{lectia-unu.tex}
+
+\input{test-unu.tex}
 
 \input{lectia-doi.tex}
 
@@ -57,6 +80,5 @@
 \input{lectia-unsprezece.tex}
 
 \input{lectia-doisprezece.tex}
-
 
 \end{document}

@@ -9,36 +9,12 @@
 		\vspace*{0.5cm}
 	}
 \end{center}
-\markright{#2}{}
-%\cfoot{\thepage}
-%\afterpage{\clearpage}
 }
 
 %Comanda pentru titlu test
 \newcommand{\test}[2]{
 	\newpage
 	\textbf{Testul #1 - #2}
-}
-
-%comanda pentru linie scurta raspuns
-\newcommand{\liniescurta}{
-	\hfill \line(1,0){35}
-}
-
-%comanda pentru linii
-\newcommand{\parereata}{
-\begin{tabular}{ p{1\textwidth}}
-	\vspace{0.2cm} \\
-    \hline  \\
-	\vspace{0.2cm} \\
-    \hline  \\
-   	\vspace{0.2cm} \\
-    \hline  \\
-   	\vspace{0.2cm} \\
-    \hline  \\
-   	\vspace{0.2cm} \\
-    \hline  \\
-\end{tabular}
 }
 
 \newcommand{\spatiuv}{
@@ -53,6 +29,6 @@
 	\vspace{2cm}
 	\textsl{#1}
 }
-\renewcommand{\i}[1]{
+\newcommand{\i}[1]{
 \textsl{#1}
 }
