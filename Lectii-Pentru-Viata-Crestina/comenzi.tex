@@ -1,17 +1,25 @@
 %Comanda pentru titlu lectie
 \newcommand{\lectia}[2]{ 
-\begin{center}
-	\section*{
-		\underline{LECȚIA} \\
-		\fontsize{40}{48}\selectfont #1 \\		
-		\vspace*{1.5cm}		
-		\fontsize{25}{20}\selectfont #2		
-		\vspace*{0.5cm}
+	\begin{center}
+		\section*{
+			\underline{LECȚIA} \\
+			\fontsize{40}{48}\selectfont #1 \\		
+			\vspace*{1.5cm}		
+			\fontsize{25}{20}\selectfont #2		
+			\vspace*{0.5cm}
+		}
+	\end{center}
+
+	\markright{#2}{} %make the title the right mark on pages
+
+	\fancyfoot[R]{\thepage}	% make title page have page number bottom right
+	\fancyhead{}
+
+	\afterpage{
+		\fancyfoot{} %reset the footer after the title page
+		\fancyhead[EL]{\thepage \hspace*{1.2cm} Lecții pentru viața creștină}	%the top left header on even pages
+		\fancyhead[OR]{\rightmark \hspace*{1.2cm} \thepage}						%the top right header on odd pages
 	}
-\end{center}
-\markright{#2}{}
-%\cfoot{\thepage}
-%\afterpage{\clearpage}
 }
 
 %Comanda pentru titlu test
@@ -52,7 +60,4 @@
 \newcommand{\nota}[1]{
 	\vspace{2cm}
 	\textsl{#1}
-}
-\renewcommand{\i}[1]{
-\textsl{#1}
 }

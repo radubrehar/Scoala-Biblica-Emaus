@@ -11,6 +11,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{fancyhdr}
+\usepackage{afterpage}
 
 \usepackage{enumitem}	% for custom vertical space between list items
 \usepackage{indentfirst}%in order to make first paragraph indented as well 
@@ -43,17 +44,17 @@
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}										%no header lines
 
-\fancyhead[EL]{Instrucțiuni pentru cursanți \thepage}
+\fancyhead[EL]{\thepage \hspace*{1.2cm} Instrucțiuni pentru cursanți}
+\fancyfoot[R]{\thepage}
+\cfoot{} %in order to remove bottom center page number
+
+\afterpage{\fancyfoot{}}
 
 \input{instructiuni.tex}
 
 \clearpage
 \pagenumbering{arabic}
 \setcounter{page}{1}
-
-\fancyhead[EL]{\thepage \hspace*{1.2cm} Lecții pentru viața creștină}	%the top left header on even pages
-\fancyhead[OR]{\rightmark \hspace*{1.2cm} \thepage}						%the top right header on odd pages
-\cfoot{}																%in order to remove bottom page number
 
 \input{lectia-unu.tex}
 
